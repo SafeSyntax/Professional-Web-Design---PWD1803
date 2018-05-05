@@ -1,0 +1,33 @@
+p {
+	background: red;
+	color: rgb(0,0,0);
+}
+h2 {
+	background: #f00;
+	color: #5489BD;
+}
+
+/*Backround*/
+
+.bg {
+	background-color: #ccc; 
+	background-image: url("images/map marker.png");
+	background-repeat: no-repeat;
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+	background-position: 50% 50%;
+	/*background-size: 300px 100px;*/
+	/*background-size: cover;*/
+	background-size: 100% 100%;
+}
+
+
+.bg2 {
+	padding-top: 500px;
+	margin-top: 200px;
+	/*background-color: #f00;
+	background-image: url("images/3.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;*/
+	background: #f00 url("images/3.jpg") no-repeat top center;
+}
