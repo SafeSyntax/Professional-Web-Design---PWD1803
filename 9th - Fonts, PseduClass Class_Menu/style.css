@@ -1,0 +1,17 @@
+body {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Dancing Script', cursive;
+}
+
+.test:before {
+	content: "<";
+	color: green;
+}
+.test:after {
+	content: '>';
+	color: #0089e9;
+}
