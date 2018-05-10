@@ -1,0 +1,41 @@
+/*
+
+font-family: 'Rokkitt', serif;
+font-family: 'Maven Pro', sans-serif;
+
+*/
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.social {
+
+	margin: 0;
+	margin-top: 100px;
+	padding: 0;
+}
+.social li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	
+}
+.social li a {
+	font-size: 50px;
+	padding: 15px;
+	width: 100px;
+	height: 100px;
+	display: block;
+	border: 2px solid transparent;
+
+}
+.social li a:hover {
+	background: #0f0;
+	border: 2px solid #000;
+	color: #fff;
+	border-radius: 100%;
+}
+.social li a i {
+	margin-top: 26px;
+}
