@@ -1,0 +1,171 @@
+/*
+font-family: 'Roboto Slab', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+* {
+	box-sizing: border-box;
+}
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: 'Roboto Slab', serif;
+}
+h2, h4 {
+	font-family: 'Montserrat', sans-serif;
+}
+.container {
+	width: 970px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container:after,
+.container:before {
+	content: "";
+	display: table;
+	clear: both;
+}
+.col33 {
+	width: 33.33%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col50 {
+	width: 50%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+/*Position*/
+.box {
+	position: relative;
+	width: 500px;
+	overflow: hidden;
+	z-index: 0;
+}
+.box img {
+	width: 100%;
+}
+
+.view {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: red;
+	color: #fff;
+	font-size: 30px;
+	visibility: hidden;
+	transition: 1s;
+	z-index: 50;
+
+}
+.box:hover .view {
+	visibility: visible;
+	top: 10%;
+}
+
+.title {
+	font-size: 30px;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	background: blue;
+	right: 0;
+	text-align: center;
+	bottom: -200px;
+	transition: 1s;
+	z-index: 5;
+}
+
+.box:hover .title {
+	bottom: 100px;
+}
+
+.rtl {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 160px;
+    background: green;
+    display: inline-block;
+    font-size: 50px;
+    color: #fff;
+    transition: 3s;
+    z-index: 10;
+}
+.box:hover .rtl {
+	left: 100px;
+}
+
+.ltr {
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    width: 160px;
+    background: green;
+    display: inline-block;
+    font-size: 50px;
+    color: #fff;
+    transition: 3s;
+    z-index: 8;
+}
+.box:hover .ltr {
+	right: 100px;
+}
+
+.over {
+	position: absolute;
+	background: rgba(0,0,0,.8);
+	top: 100%;
+	z-index: 1;
+	visibility: hidden;
+	transition: 5s;
+}
+.box:hover .over {
+	visibility: visible;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+
+
+.team {
+	position: relative;
+	width: 400px;
+	border-radius: 30px 0;
+	overflow: hidden;
+	
+}
+.team img {
+	display: block;
+	width: 100%;
+	border-radius: 30px 0;
+}
+.in {
+	position: absolute;
+	left: 30px;
+	right: 30px;
+	top: 30px;
+	bottom: 30px;
+	background: red;
+	border-radius: 30px 0;
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	transform: scale(0);
+	transition: .5s;
+}
+.team:hover .in {
+	transform: scale(1.3);
+}
