@@ -1,0 +1,40 @@
+.title {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.intitle {
+	position: relative;
+	display: inline-block;
+	
+}
+.intitle:before {
+    content: "";
+    position: absolute;
+    width: 115px;
+    height: 3px;
+    background: red;
+    left: 50%;
+    margin-left: -57px;
+    top: -11px;
+}
+.intitle:after {
+    content: "";
+    position: absolute;
+    width: 115px;
+    height: 3px;
+    background: red;
+    left: 50%;
+    margin-left: -57px;
+    bottom: -11px;
+}
+
+
+
+
+img {
+	display: inline-block;
+	max-width: 100%;
+}
+
