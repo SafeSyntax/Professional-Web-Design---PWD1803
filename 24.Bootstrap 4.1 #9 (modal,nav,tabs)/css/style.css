@@ -1,0 +1,15 @@
+.kichu {
+    width: 200px;
+    height: 50px;
+    background: gray;
+    position: relative;
+}
+.kichu:after {
+    content: "";
+    position: absolute;
+    border-top: 25px solid red;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-left: 25px solid red;
+    left: 100%;
+}
