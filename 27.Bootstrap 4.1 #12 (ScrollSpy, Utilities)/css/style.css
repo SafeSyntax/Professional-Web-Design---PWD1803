@@ -1,0 +1,21 @@
+body {
+    position: relative;
+}
+.nav   {
+    position: fixed;
+    top: 0;
+    height: 100px;
+
+}
+
+.active {
+    background: blue;
+    color: #fff;
+}
+
+.x {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    border: 2px solid green;
+}
