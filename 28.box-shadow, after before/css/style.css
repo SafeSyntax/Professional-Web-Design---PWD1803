@@ -1,0 +1,35 @@
+.text {
+    background: aqua;
+    box-shadow: 5px 5px 10px blue;
+}
+.con {
+    background: #ccc;
+    position: relative;
+    border-radius: 20px 0;
+    padding: 15px;
+}
+
+.con:after {
+    content: "";
+    box-shadow: 5px 5px 1px 5px #ab7777;
+    top: 97%;
+    position: absolute;
+    left: 10px;
+    right: 48%;
+    /* background: blue; */
+    /* height: 21px; */
+    z-index: -5;
+    transform: rotate(-2deg);
+}
+.con:before {
+    content: "";
+    box-shadow: 5px 5px 1px 4px #ab7777;
+    top: 97%;
+    position: absolute;
+    left: 49%;
+    right: 28px;
+    /* background: blue; */
+    /* height: 21px; */
+    z-index: -5;
+    transform: rotate(2deg);
+}
